@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style type="text/css">
+
+	body{
+		margin:0;
+	}
+	header{
+
+		width: 100%;
+		height: 50px;
+		margin:0;
+		background-color: yellow;
+		position: fixed;
+		display: flex;
+		flex-direction: row;
+
+	}
+	footer{
+		width: 100%;
+		height: 80px;
+		background-color: yellow;
+		position: absolute;
+		bottom: 0;
+	}
+	main{
+		margin:0;
+		display: flex;
+		flex-direction: row;
+	}
+	#logo {
+		width: auto;
+		height:25px; 
+		background-color: yellow;
+		margin-top: 15px;
+		margin-left: 130px;
+		display: flex;
+		font-size: 25px;	
+	}
+
+	ul{
+		width: 400px;
+		height: 35px;
+		padding: 0;
+		margin-top: 10px;
+		margin-left: 750px;
+		margin-right: 80px;
+		list-style: none;
+		display:flex;
+		justify-content: space-between;
+
+	}
+	li{	background-color: gray;
+		border:1px solid #000;
+		border-radius: 35%;
+		font-family: verdana, arial, sans-serif;
+		padding: 2px;
+		margin-top: 2px;
+		width: 120px;
+		height: 25px;
+	}
+	 a {margin-top: 15px;
+	 	margin-left: 35px;
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	#texto{
+
+		margin-top: 30px;
+		margin-left: 45%;
+		margin-right: 45%;
+		font-family: verdana, arial, sans-serif;
+		font: #fff;
+		font-size: 15px;
+		
+	}
+	#caixa{
+		
+		width: 200px;
+		height: 150px;
+		background-color: #FFFFE0;
+		margin-top: 180px;
+		margin-left: 480px;
+		display: flex;
+		flex-direction: row;
+	}
+	#ca{
+		
+		border-left: 3px dotted #000;
+		width: 300px;
+		height: 300px;
+		background-color: none;
+		margin-top: 100px;
+		margin-left: 0px;
+		display: flex;
+		flex-direction: row;
+	}
+	form{
+		width: auto;
+		height: auto;
+		margin-top: 140px;
+		display: flex;
+		flex-direction: column;
+	}
+	#e-mail{
+		width: 290px;
+		height: auto;
+		border: 1px solid #000;
+		outline: none;
+		margin-left: 2px;
+	}
+
+	#botao{
+		width: 70px;
+		height: 25px;
+		background-color: #FFFFE0;
+		margin-top: 3px;
+		margin-left: 2px;
+		border: 1px solid #000;
+		border-radius: 5%;
+	}
+</style>
+<body>
+	
+	<header>
+		<div id="logo">LOGO</div>
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Contato</a></li>
+			<li><a href="">Sobre</a></li>
+		</ul>
+		
+	</header>
+	<main>
+		<div id="caixa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, fugit amet sint exercitationem. Quis consequatur exercitationem unde ipsam nisi sequi, veniam iure ea velit iste officia maiores beatae quia molestiae!</div>
+		<div id="ca"> 
+			<form>
+				<input id="e-mail" placeholder="Digite seu e-mail" type="text" name="">
+				<input id="botao" type="submit" name="">
+
+			</form>
+
+		</div>
+		
+	</main>
+	<footer>
+		<div id="texto">by TI-ACADEMY</div>
+	</footer>
+</body>
+</html>

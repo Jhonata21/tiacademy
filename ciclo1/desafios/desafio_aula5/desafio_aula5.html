@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desafio_aula5/desafio_aula5.css">
+    <title>Interação e Escrita - Universidade Estadual de Maringá</title>
+</head>
+<style type="text/css">
+body{
+	margin:0;
+}
+header{
+	width: 100%;
+	height: auto;
+	border: 1px solid #000;
+	background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+
+display: flex;
+flex-direction: column;
+background-color: #F0FFF0;	
+}
+
+#imagem{
+    margin-left: 250px;
+    margin-right: 290px;
+}
+#lista{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #000;
+	margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 1px solid #000;
+	background-color: #2E8B57;
+	display: flex;
+    flex-direction: row;
+    font-family: Verdana;
+    font-size: 30px;
+}
+.txt{
+
+font-size: 20px;
+color: #000;
+text-decoration: none;
+}
+#opcoes{width: 100%;
+	height: 20px;
+	margin-top: 5px;
+	margin-left: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+#itens{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+#texto{
+	width: 800px;
+	height: 300px;
+	margin-left: 250px; 
+}
+#conteudo{
+    text-align: justify;
+}
+#texto2{
+	width: 900px;
+	height: 500px;
+	margin-left: 250px; 
+	display: flex;
+	flex-direction: row;
+}
+#coluna1{
+	width: 450px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+
+}
+#coluna2{
+	width: 450px;
+	height: 500px;
+	display: flex;
+    flex-direction: column;
+}
+.txt-nomes{
+font-size: 20px;
+color: #000;
+text-decoration: none;
+}
+
+.txt-pessoas{
+    
+    color: green;
+    text-decoration: none;
+}
+
+
+	
+</style>
+<body> 
+    <header>
+        <img id="imagem" src="imagem.jpg">
+    	<div id="lista">
+    		<ul id="opcoes" >
+                    <li id="itens"><a class="txt" href="">Início</a></li>
+                    <li id="itens"><a class="txt" href=""> Projetos em andamento</a></li>
+                    <li id="itens"><a class="txt" href=""> Projetos concluídos</a></li>
+                    <li id="itens"><a class="txt" href=""> Publicações</a></li>
+                    <li id="itens"><a class="txt" href=""> Dissertações</a></li>
+                    <li id="itens"><a class="txt" href=""> Teses</a></li>
+                    <li id="itens"><a class="txt" href=""> Eventos</a></li>
+                    <li id="itens"><a class="txt" href=""> Contatos</a></li>
+                    <li id="itens"><a class="txt" href=""> Fotos</a></li>
+            </ul>
+
+    	</div>    
+    </header>
+    <main>
+    	<div id="texto">
+    		<h1>Apresentação</h1>
+                    
+                    <p id="conteudo">
+                        O <span title="Grupo de Pesquisa - Interação e Escrita -
+                    breve descrição - UEM - letras - Apresentação..." style="font-weight: bold;">Grupo de Pesquisa Interação e Escrita
+                    </span> é formado por pesquisadores de várias Instituições de Ensino Superior do Paraná, preocupados com a escrita em situação de
+                    ensino e aprendizagem de línguas, nas suas mais variadas manifestações. Compõem o grupo professores e pesquisadores de ensino superior,
+                    ligados a programas de pós-graduação (stricto e lato sensu), alunos de pós-graduação e de graduação.
+                    As pesquisas desenvolvidas apresentam uma base teórica comum que é o sócio-interacionismo, a partir da perspectiva de
+                    <a><span>Vygotsky</span></a> e <a><span>Bakhtin</span></a> e toda a literatura dela decorrente, no Brasil. Além dessa abordagem, também se empregam os princípios do interacionismo
+                    sócio-discursivo, com maior representatividade em Bronckart. São interesses temáticos: o ensino, a aquisição e o desenvolvimento daescrita, envolvendo-se a leitura, a produção de textos e a análise linguística, como eixos norteadores, primários e pertinentes, no
+                    ensino básico e no ensino superior, especificamente na formação de professores de língua materna e língua estrangeira, incluindo-se o
+                    material didático, as abordagens, os procedimentos e as metodologias empregadas. Além disso, são desenvolvidas pesquisas que
+                    estudam a utilização e a posição da escrita em situações sociais definidas.
+    		        </p>  
+    	</div>
+    	<div id="texto2">
+    		<div id="coluna1">
+
+    			<h class="txt-nomes">Coordenador</h>
+    			<a class="txt-pessoas" href="" title="" >Dr. Renilson José Menegassi</a>
+
+    			<h class="txt-nomes">Vice-cordenador</h>
+    			<a class="txt-pessoas" href="" title="">Dr. Maria Adelaide de Freitas</a>
+
+    			<h class="txt-nomes">Secretarias</h>
+    			<a class="txt-pessoas" href="" title="">Ms. Ângela Francine Fuzza</a>
+    			<a class="txt-pessoas" href="" title="">Ms. Rafaela de Cássia Franzoi</a>
+    			
+                <h class="txt-nomes">Pesquisadores</h>
+    			<a class="txt-pessoas" href="">Ms. Ângela Francine Fuzza</a>
+    			<a class="txt-pessoas" href="" >Ms. Carmên Ilma Belincanta Borghi</a>
+                <a class="txt-pessoas" href="">Ms. Cristiane Malinoski Pianaro Angelo</a>
+                <a class="txt-pessoas" href="">Dra. Flávia Zanutto</a>
+                <a class="txt-pessoas" href="">Ms. Ivanize Ribeiro de Souza</a>
+                <a class="txt-pessoas" href="">Ms. Lílian Cristina Buzato Ritter</a>
+                <a class="txt-pessoas" href="">Ms. Luciana Cabrini Simões Calvo</a>
+                <a class="txt-pessoas" href="">Ms. Márcia Cristina Greco Ohuschi</a>
+                <a class="txt-pessoas" href="">Dra. Margarida da Silveira Corsi</a>
+                <a class="txt-pessoas" href="">Ms. Marilice Pompeu da Silva</a>
+                <a class="txt-pessoas" href="">Ms. Marilúcia dos Santos Domingos Striquer</a>
+                <a class="txt-pessoas" href="">Dr. Neil Armstrong Franco de Oliveira</a>
+                <a class="txt-pessoas" href="">Dra. Neiva Maria Jung</a>
+                <a class="txt-pessoas" href="">Ms. Paulo Cezar Rodrigues</a>
+                <a class="txt-pessoas" href="">Ms. Rafaela de Cássia Franzoi</a>
+                <a class="txt-pessoas" href="">Ms. Rubia Mara Bragagnollo</a>
+                <a class="txt-pessoas" href="">Ms. Ruth Ceccon Barreiros</a>
+                <a class="txt-pessoas" href="">Ms. Silvia Regina Emiliano</a>
+                <a class="txt-pessoas" href="">Ms. Wilsilene Rodrigues Gatto</a>
+    			
+    		</div>
+    		<div id="coluna2">
+    			<h class="txt-nomes">Estudantes</h>
+
+                <a class="txt-pessoas" href=""> Adélia Aparecida Pereira da Silva Rodrigues</a>
+                <a class="txt-pessoas" href="">Aline Aparecida da Silva</a>
+                <a class="txt-pessoas" href="">Ana Maria da Silva</a>
+                <a class="txt-pessoas" href="">Débora Sodré Esper</a>
+                <a class="txt-pessoas" href="">Erika Polessi</a>
+                <a class="txt-pessoas" href="">Guilherme Rocha Duran</a>
+                <a class="txt-pessoas" href="">Marli Aparecida Pedro Duque</a>
+                <a class="txt-pessoas" href="">Natália Gonçalves Moterani</a>
+                <a class="txt-pessoas" href="">Pricila Gaffuri</a>
+                
+
+    				
+    			
+    		</div>
+
+    	</div>
+        
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

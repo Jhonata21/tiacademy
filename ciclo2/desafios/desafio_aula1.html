@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var entradaNome = prompt("Digite o seu nome");
+
+		var entradaNum = prompt(entradaNome+" "+"Digite um número");
+
+		var n = 15;
+		console.log(n);
+
+		var comp = (n === entradaNum)
+		console.log(comp);
+
+		var soma = (parseInt(n)+parseInt(entradaNum));
+		console.log(soma);
+
+		var sub = (n - entradaNum);
+		console.log(sub);
+
+		var resto = (n%entradaNum);
+		console.log(resto);
+
+		var quad = (entradaNum**2)
+		console.log(quad);
+
+		document.write("Seja bem vindo...:"+" "+entradaNome+"<br/>");
+		document.write("Você digitou o número...:"+" "+entradaNum+"<br>");
+		document.write("O retorno da comparação booleana é...:"+" "+comp+"<br/>") ;
+		document.write("A soma dos valores é...:"+ " "+soma+"<br/>") ;
+		document.write("A subtração dos valores é...:"+" "+sub+"<br/>");
+		document.write("O resto da divisão é...:"+" "+resto+"<br/>");
+		document.write("O quadrado do número é...:"+" "+quad+"<br/>");
+
+
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var entradaNome = prompt("Digite o seu nome");
+		console.log(typeof(entradaNome));
+				
+		alert("Uma string foi enviada");
+
+		var entradaNum = prompt(entradaNome+" "+"digite um número");
+		alert("A string será convertida em um número");
+
+		var fruta = prompt("Escolha uma fruta entre laranja, uva, pêra, e manga");
+		var f1="laranja";
+		var f2="uva";
+		var f3="pêra";
+		var f4="manga";
+		
+		
+		
+		if(fruta==f1){
+	
+			alert("Você escolheu"+" "+fruta);
+		}
+		else if (fruta==f2){
+			alert("Você escolheu"+" "+fruta);
+		}
+		else if (fruta==f3){
+			alert("Você escolheu"+" "+fruta);
+		}
+		else if (fruta==f4){
+			alert("Você escolheu"+" "+fruta);
+		}
+		else if (fruta!==f1||f2||f3||f4){
+			alert(entradaNome+" "+"a fruta escolhida não está listada!");
+		}
+
+		
+
+
+		
+		var n = 15;
+		console.log(n);
+
+		var comp = (n === entradaNum)
+		console.log(comp);
+
+		var soma = (parseInt(n)+parseInt(entradaNum));
+		console.log(soma);
+
+		var sub = (n - entradaNum);
+		console.log(sub);
+
+		var resto = (n%entradaNum);
+		console.log(resto);
+
+		var quad = (entradaNum**2)
+		console.log(quad);
+
+	
+		document.write("Seja bem vindo...:"+" "+entradaNome+"<br/>");
+		document.write("Você digitou o número...:"+" "+entradaNum+"<br>");
+		document.write("O retorno da comparação booleana é...:"+" "+comp+"<br/>") ;
+		document.write("A soma dos valores é...:"+ " "+soma+"<br/>") ;
+		document.write("A subtração dos valores é...:"+" "+sub+"<br/>");
+		document.write("O resto da divisão é...:"+" "+resto+"<br/>");
+		document.write("O quadrado do número é...:"+" "+quad+"<br/>");
+		document.write("A fruta escolhida é...:"+" "+fruta+"<br/>");
+		
+		
+
+		
+
+
+	</script>
+	
+</body>
+</html>
